@@ -13,3 +13,6 @@ if current_minute < 10:
 current_time_text = str(current_hour) + ":" + str(current_minute)
 
 print(f"---------Clock----------\n|        {current_time_text}         |\n------------------------")
+
+print("\nFor exit press Enter")
+input()
